@@ -40,8 +40,8 @@ img {
 
 .textHeart {
 position: absolute;
-  top: calc(50% - 200px);
-  left: calc(50% - 90px);
+  top: -20%;
+  left: 9%;
 background-color: rgba(0, 0, 0, 0);
 color: rgb(255, 0, 170);
 font-size: 300px;
