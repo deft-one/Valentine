@@ -22,6 +22,7 @@ let heartStart2 = document.getElementById('heartStart2');
 let heartStart3 = document.getElementById('heartStart3');
 let heartStart4 = document.getElementById('heartStart4');
 let heartStart5 = document.getElementById('heartStart5');
+let finalText = document.getElementById('finalText');
 
 yes.addEventListener('click', clickYes);
 no.addEventListener('click', clickNo);
@@ -144,5 +145,6 @@ function clickPolaroid5(e) {
     heartStart3.classList.add('heartEnd3');
     heartStart4.classList.add('heartEnd4');
     heartStart5.classList.add('heartEnd5');
+    finalText.classList.add('finalTextMoved');
   }
 }
