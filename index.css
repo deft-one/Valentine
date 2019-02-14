@@ -152,35 +152,35 @@ z-index: 99999;
 .heartStart1 {
   display: block;
   position: absolute;
-    top: 110%;
+    top: 120%;
     left: 5%;
 }
 
 .heartStart2 {
   display: block;
   position: absolute;
-    top: 110%;
+    top: 120%;
     left: 25%;
 }
 
 .heartStart3 {
   display: block;
   position: absolute;
-    top: 110%;
+    top: 120%;
     left: 45%;
 }
 
 .heartStart4 {
   display: block;
   position: absolute;
-    top: 110%;
+    top: 120%;
     left: 65%;
 }
 
 .heartStart5 {
   display: block;
   position: absolute;
-    top: 110%;
+    top: 120%;
     left: 85%;
 }
 
@@ -234,5 +234,5 @@ z-index: 99999;
 
 @keyframes finalText {
   0% {}
-  100% { top: 20%; }
+  100% { top: 20vh; }
 }
