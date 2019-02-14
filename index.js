@@ -62,7 +62,10 @@ function clickYes(e) {
 function clickheart1(e) {
   if(e.target == heart1) {
     heart1.classList.add('textHeartMoved');
-    text1.innerHTML = 'You\'re as goofy<br>as me.'
+    text1.innerHTML = 'You\'re as goofy<br>as me.';
+    setTimeout(function touchHere() {
+      text1.innerHTML = 'Touch here.';
+    }, 2000);
   }
 }
 
@@ -79,7 +82,10 @@ function clickPolaroid1(e) {
 function clickheart2(e) {
   if(e.target == heart2) {
     heart2.classList.add('textHeartMoved');
-    text2.innerHTML = 'We like the<br>same things.'
+    text2.innerHTML = 'We like the<br>same things.';
+    setTimeout(function touchHere() {
+      text2.innerHTML = 'Touch here.';
+    }, 2000);
   }
 }
 
@@ -97,6 +103,9 @@ function clickheart3(e) {
   if(e.target == heart3) {
     heart3.classList.add('textHeartMoved');
     text3.innerHTML = 'We have fun<br>together.';
+    setTimeout(function touchHere() {
+      text3.innerHTML = 'Touch here.';
+    }, 2000);
   }
 }
 
@@ -114,6 +123,9 @@ function clickheart4(e) {
   if(e.target == heart4) {
     heart4.classList.add('textHeartMoved');
     text4.innerHTML = 'We\'re damn sexy<br>together.';
+    setTimeout(function touchHere() {
+      text4.innerHTML = 'Touch here.';
+    }, 2000);
   }
 }
 
@@ -130,7 +142,10 @@ function clickPolaroid4(e) {
 function clickheart5(e) {
   if(e.target == heart5) {
     heart5.classList.add('textHeartMoved');
-    text5.innerHTML = 'You love me<br>like no other.'
+    text5.innerHTML = 'You love me<br>like no other.';
+    setTimeout(function touchHere() {
+      text5.innerHTML = 'Touch here.';
+    }, 2000);
   }
 }
 
